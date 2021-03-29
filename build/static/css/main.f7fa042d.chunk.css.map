@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Components/Slider/Slider.css","webpack://src/Components/Cards/Cards.css"],"names":[],"mappings":"AAAA,WACI,eACJ,CCFA,gBACI,YAAa,CACb,UACJ,CACA,KACI,eACJ","file":"main.f7fa042d.chunk.css","sourcesContent":[".btn-large {\n    margin-top: 20px;\n}",".card-image img {\n    height: 450px;\n    width: auto;\n}\n.row {\n    margin-top: 50px;\n}"]}
