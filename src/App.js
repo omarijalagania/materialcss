@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import NavBar from './Components/Navbar/NaBar';
+import '../node_modules/materialize-css/dist/css/materialize.css';
+import Slider from './Components/Slider/Slider';
+import Search from './Components/Search/Search';
+import Cards from './Components/Cards/Cards';
+import Footer from './Components/Footer/Footer';
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <React.Fragment>
+        <NavBar />
+        <Slider />
+        <Search />
+        <Cards />
+        <Footer />
+      </React.Fragment>
+    </Router>
   );
 }
 
